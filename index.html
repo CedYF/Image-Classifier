@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <!-- Load the latest version of TensorFlow.js -->
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://unpkg.com/@tensorflow-models/mobilenet@2.0.2"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    
+  </head>
+  <body>
+   
+
+    <div id="console"></div>
+    <!-- Add an image that we will use to test -->
+    <h2>Web Testing</h2>
+   <img id="img" crossorigin src="https://i.imgur.com/JlUvsxa.jpg" width=227 height=227/>
+   <Br>
+   <p>Try this: https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg</p>
+   <Br>
+   <form id="former" >
+   <input id="url" placeholder="insert URL of image" type="text" name="fname">
+    
+   </form>
+
+   <button id="submitButtonId">Result</button>
+   <h3>Result:</h3>
+   <h4 id='result'>Dog</h4>
+     <!--<video autoplay playsinline muted id="webcam" width="224" height="224"></video>-->
+    <!-- Load index.js after the content of the page -->
+    <script src="index.js"></script>
+  </body>
+</html>
